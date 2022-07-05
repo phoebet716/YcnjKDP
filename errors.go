@@ -3,7 +3,6 @@ package route
 var (
 	ErrUnauthorized   = newError("Unauthorized")
 	ErrBadRequest     = newError("Body invalid")
-	ErrForbidden      = newError("Forbidden")
 	ErrNotFound       = newError("Resource not found")
 )
 
